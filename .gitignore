@@ -1,5 +1,6 @@
 /node_modules
 package-lock.json
+/data
 public/app.bundle.*
 build_and_deploy.*
 .vscode/settings.json
