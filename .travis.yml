@@ -7,3 +7,8 @@ cache:
 script: 
   - ./build/build.sh
   - ./build/test.sh
+deploy:
+  provider: "heroku"
+  api_key:
+    secure: "gFYfTuMtGJjqxKGJ0gwM2hCugiu59FKhsOFv2RdYw5gDagXy972U/+ejJ0NSdWi4Wz0rNinpMn4fKWyRzygLOIv8qy7baj0tgGbbC8bvvSqnaUiSgl8ff99VbVNF5ih0n7Hu7ZZZVIAO/A8kUQLDdVqsvBlq21B569QFhOTCFczuMP/CP6UK0pJHAehThClEOtIvEBuVVV//x0Jz6kEEo5NsLPIj1HHtZJCkatyUl/xeDe92V+gnkiAroDpKFy/u5W7uuOjtCdYwUm6towVowLO4B4neTTkhdm05LwKll/UsWykz3qzDCK0KlvuMaGu19FcXde0b9ChnPAF91k5p6PyW3kt6XgEZPCDBAVimNvgilKyMUnnSe41B63BSedCTqN3hNFRQPaLZ1Dq26U2gDG5x9ipuNho8I+eScj+ODQRP0c7G08k/nmp1m3lMk217J7zB0GYM0Z4pCfMucXDjMuYnBJKUR2w9ZqUFzf0ImPiQk9iI56zUaJAhCkg8ctdHjp4pbpIJ6te3fZeEO/oofmweHQDv46TbAqh1EXKo51aSXBGPwvr0loWV9ytMD6AJESSLuZaoShJltKez8hq2xm4tfLtt9zWDaIfrJ9lQTeWrMTsHetF6cH7jcsrcEjkPtghJMvq1T17uH9EWlI2ikYsmuwx4nkwEkyGcXb8h+Go="
+  app: "ramya-jdjobs-dev"
