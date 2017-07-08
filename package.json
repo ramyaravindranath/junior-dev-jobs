@@ -19,7 +19,7 @@
     "mongodb": "^2.1.14",
     "path": "^0.12.7",
     "prop-types": "^15.5.10",
-    "react-redux": "^5.0.5",
+    "react-redux": "2.2.2",
     "redux": "^3.7.0",
     "redux-saga": "^0.15.4"
   },
@@ -48,7 +48,7 @@
     "karma-webpack": "^2.0.3",
     "mocha": "^3.4.2",
     "mocha-jsdom": "^1.1.0",
-    "react": "^15.6.1",
+    "react": "0.13.0s",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.1",
     "url-loader": "^0.5.9",
